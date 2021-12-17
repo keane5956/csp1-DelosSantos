@@ -135,26 +135,26 @@
 
 /* Style the social media icons with color, if you want */
 .icon-bar a:hover {
-  background-color: #E8E7DA;
+  background-color: #4D4884;
 }
 
 .facebook {
-  background: grey;
+  background: #03013d;
   color: black;
 }
 
 
 .google {
-  background: grey;
+  background: #03013d;
   color: black;
 }
 
 .linkedin {
-  background: grey;
+  background: #03013d;
   color: black;
 }
 
 .youtube {
-  background: grey;
+  background: #03013d;
   color: black;
 }
