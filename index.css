@@ -6,14 +6,142 @@
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
+	font-family: 'Bebas Neue', cursive;
 }
+
+
+
+
+#navbar-brand {
+	color: #353205;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size: 2rem;
+}
+
+
+
+
+
 
 #welcome-video {
 	control:  autoplay;
 }
 
+
+
+
+
+#webdeveloper {
+	color: #E8E7DA;
+	text-transform: uppercase;
+	font-size: 70px; 
+	font-weight: bold;
+}
+
+
+
+
+
+#paragraph1 {
+	letter-spacing: 6px;
+	font-weight: bold;
+	color: #E8E7DA;
+}
+
+
+
+
+
+
+#visitus {
+	color: #E8E7DA;
+}
+
+.row {
+	color: #E8E7DA;
+}
+.form-group {
+	color: #46420E;
+	font-weight: bold;
+}
+
+
+
+
+
+#gmap {
+	position: relative;
+}
+
+
+
+
+
+
 #footer {
 	align-items: center;
 	justify-content: center;
 	display: flex;
+	background-color: #03013d;
+	font-family: bebas neue; cursive;
+}
+
+
+
+
+
+
+#button {
+	background-color: #E8E7DA;
+}
+
+
+
+
+
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #E8E7DA;
+}
+
+.facebook {
+  background: grey;
+  color: black;
+}
+
+
+.google {
+  background: grey;
+  color: black;
+}
+
+.linkedin {
+  background: grey;
+  color: black;
+}
+
+.youtube {
+  background: grey;
+  color: black;
 }

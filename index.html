@@ -7,6 +7,14 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="./index.css">
 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+
+
 </head>
 
 
@@ -14,10 +22,10 @@
 <body>
 
 <div>
-	<div class="text-white" id="landing">
+	<div id="landing">
 
 	<nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
-	<a class="navbar-brand text-white" href="#">KEANE CARTA</a>
+	<a class="navbar-brand" id="navbar-brand" href="#">KEANE CARTA</a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
 	  </button>
@@ -25,10 +33,10 @@
 	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 	    <ul class="navbar-nav ml-auto">
 	      <li class="nav-item">
-	        <a class="nav-link text-white" href="./index.html">Home</a>
+	        <a class="nav-link text-white" href="./index.html" style="">Home</a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link text-white" target="_blank" href="https://www.facebook.com/profile.php?id=100010134634335">| Visit our Facebook</a>
+	        <a class="nav-link text-white" target="_blank" href="https://zuitt.co/">| Visit Zuitt</a>
 	      </li>
 	    </ul>
 	  </div>
@@ -46,20 +54,25 @@
 
 
 
-		<h3 class="text-center my-5">Greetings!!</h3>
+		<h1 class="text-center my-5" id="webdeveloper">WEB DEVELOPER</h1>
 
 		<div class="container-fluid" align="center">
 		<img src=".././s4/discussion/images/idpic.jpg"  class="border border-dark rounded-circle" style="height:200px; width: 200px;">
 		</div>
+		<p class="text-center mb-5 p-5" style="font-family: 'Bebas Neue', cursive;" id="paragraph1">Hi  and  welcome  to  my  page!  I  am  Aaron Keane Delos Santos,  a  Junior  Web Developer  from  Zuitt  and  Im  more  than  happy  to  be  of  service.</p>
 
-		<div class="row">
-			<div class="col-md-6 my-4">
+
+
+
+		<div class="row mx-auto">
+			<div class="col 5 col-md-5 my-4 ml-5">
 				<h2 class="text-center mb-3">Visit Us!</h2>
 				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.4100409860584!2d121.04148921504363!3d14.632650280212925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b7afe6a39331%3A0xd367e6dc5e274032!2sCaswynn%20Building%2C%20134%20Timog%20Ave%2C%20Diliman%2C%20Quezon%20City%2C%201103%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1639641599526!5m2!1sen!2sph"
 				frameborder="0" id="gmap" height="500vh;" width="400vh;">
 				</iframe>
 			</div>
-			<div class="col-12 col-md-6 mt-3">
+
+			<div class="col-8 col-md-5 mt-3" id="visitus">
 				<h2 class="text-center">Contact Us!</h2>
 				<form>
 					<div class="form-group">
@@ -71,7 +84,7 @@
 						<input type="email" name="email" id="txt-email" placeholder="Enter Email" class="form-control">
 					</div>
 					<div class="form-group">
-						<label for="serviceInput">Service Type:</label>
+						<label for="serviceInput">Desired Service:</label>
 						<br>
 						<select name="service type" id="serviceInput" required>
 							<option value="frontend">Front End Programming</option>
@@ -85,18 +98,17 @@
 						<textarea class="form-control" id="txt-message" rows="3"></textarea>
 					</div>
 
-					<div class="form-group">
-					<button href="https://www.facebook.com/profile.php?id=100010134634335" type="button" class="btn btn-block btn-success text-dark" id="button">Send Message
+					<div>
+					<button href="https://www.facebook.com/profile.php?id=100010134634335" type="button" class="btn btn-block text-dark" id="button">Send Message
 					</button>
 					</div>
 				</form>
-
 
 			</div>
 		</div>
 	</div>
 
-	<footer class="p-3 bg-dark text-white" id="footer">
+	<footer class="p-3 text-white" id="footer">
 	<span>Terms of Service</span>
 		<span>|</span>
 		<span>Privacy Policy</span>
@@ -105,7 +117,18 @@
 	</footer>
 
 
+
+<div class="icon-bar">
+  <a href="https://www.facebook.com/profile.php?id=100010134634335" class="facebook"><i class="fa fa-facebook"></i></a>
+  <a href="https://www.google.com" class="google"><i class="fa fa-google"></i></a>
+  <a href="https://www.linkedin.com/in/aaron-keane-delos-santos-1602b5100/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+  <a href="https://www.youtube.com/channel/UCwPsLYNGQmG9B3xwsAWqDhA" class="youtube"><i class="fa fa-youtube"></i></a>
 </div>
+
+
+
+</div>
+
 
 
 
