@@ -42,6 +42,7 @@
 	text-transform: uppercase;
 	font-size: 70px; 
 	font-weight: bold;
+	padding-top: 30vh;
 }
 
 
@@ -60,8 +61,14 @@
 
 
 
+
+
+
+
+
 #visitus {
 	color: #E8E7DA;
+	padding-left: 20vh;
 }
 
 .row {
@@ -76,7 +83,8 @@
 
 
 #gmap {
-	position: relative;
+	position: center;
+	padding-left: 10vh;
 }
 
 
