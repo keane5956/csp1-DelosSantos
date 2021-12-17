@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My Own Page</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="./index.css">
+
+</head>
+
+
+
+<body>
+
+<div>
+	<div class="text-white" id="landing">
+
+	<nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+	<a class="navbar-brand text-white" href="#">KEANE CARTA</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <ul class="navbar-nav ml-auto">
+	      <li class="nav-item">
+	        <a class="nav-link text-white" href="./index.html">Home</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link text-white" target="_blank" href="https://www.facebook.com/profile.php?id=100010134634335">| Visit our Facebook</a>
+	      </li>
+	    </ul>
+	  </div>
+	</nav>
+
+
+
+	<div id="welcome-video"  class="container-fluid row justify-content-center">
+		
+		<video class="col-12 col-md-6" controls autoplay muted>
+  		<source src=".././s4/discussion/images/welcome-video.mp4" type="video/mp4">
+  		<source src=".././s4/discussion/images/welcome-video.mp4" type="video/ogg">
+  		</video>
+	</div>
+
+
+
+		<h3 class="text-center my-5">Greetings!!</h3>
+
+		<div class="container-fluid" align="center">
+		<img src=".././s4/discussion/images/idpic.jpg"  class="border border-dark rounded-circle" style="height:200px; width: 200px;">
+		</div>
+
+		<div class="row">
+			<div class="col-md-6 my-4">
+				<h2 class="text-center mb-3">Visit Us!</h2>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.4100409860584!2d121.04148921504363!3d14.632650280212925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b7afe6a39331%3A0xd367e6dc5e274032!2sCaswynn%20Building%2C%20134%20Timog%20Ave%2C%20Diliman%2C%20Quezon%20City%2C%201103%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1639641599526!5m2!1sen!2sph"
+				frameborder="0" id="gmap" height="500vh;" width="400vh;">
+				</iframe>
+			</div>
+			<div class="col-12 col-md-6 mt-3">
+				<h2 class="text-center">Contact Us!</h2>
+				<form>
+					<div class="form-group">
+						<label for="txt-username" required>Name:</label>
+						<input for="text" name="name" id="txt-username" placeholder="Enter Full Name" class="form-control">
+					</div>
+					<div class="form-group">
+						<label for="txt-email" required>Email:</label>
+						<input type="email" name="email" id="txt-email" placeholder="Enter Email" class="form-control">
+					</div>
+					<div class="form-group">
+						<label for="serviceInput">Service Type:</label>
+						<br>
+						<select name="service type" id="serviceInput" required>
+							<option value="frontend">Front End Programming</option>
+							<option value="backend">Back End Programming</option>
+							<option value="fullstack">Full Stack Programming</option>
+						</select>
+						<br>
+					</div>
+					<div class="form-group">
+						<label for="txt-message">Message:</label>
+						<textarea class="form-control" id="txt-message" rows="3"></textarea>
+					</div>
+
+					<div class="form-group">
+					<button href="https://www.facebook.com/profile.php?id=100010134634335" type="button" class="btn btn-block btn-success text-dark" id="button">Send Message
+					</button>
+					</div>
+				</form>
+
+
+			</div>
+		</div>
+	</div>
+
+	<footer class="p-3 bg-dark text-white" id="footer">
+	<span>Terms of Service</span>
+		<span>|</span>
+		<span>Privacy Policy</span>
+		<span>|</span>
+		<span>&copy; 2017-2021 Keane Carta. All Rights Reserved.</span>
+	</footer>
+
+
+</div>
+
+
+
+
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+</body>
+
+</html>

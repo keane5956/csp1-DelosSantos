@@ -1,0 +1,19 @@
+
+
+#landing {
+	background-image: url(https://images.pexels.com/photos/1660924/pexels-photo-1660924.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+#welcome-video {
+	control:  autoplay;
+}
+
+#footer {
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
