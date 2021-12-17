@@ -25,8 +25,12 @@
 
 #welcome-video {
 	control:  autoplay;
-	control:  replay;
+	control:  loop;
 	height: 50vh;
+}
+
+#webdesign-video {
+	padding-bottom: 15vh;
 }
 
 
