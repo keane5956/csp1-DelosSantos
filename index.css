@@ -1,7 +1,7 @@
 
 
 #landing {
-	background-image: url(https://images.pexels.com/photos/1660924/pexels-photo-1660924.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+	background-image: url(https://images.pexels.com/photos/207153/pexels-photo-207153.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -13,9 +13,8 @@
 
 
 #navbar-brand {
-	color: #353205;
+	color: #E8E7DA;
 	font-weight: bold;
-	letter-spacing: 1px;
 	font-size: 2rem;
 }
 
@@ -34,7 +33,7 @@
 
 
 #webdeveloper {
-	color: #E8E7DA;
+	color: #FFC300;
 	text-transform: uppercase;
 	font-size: 70px; 
 	font-weight: bold;
@@ -48,6 +47,7 @@
 	letter-spacing: 6px;
 	font-weight: bold;
 	color: #E8E7DA;
+	font-size: 20px;
 }
 
 
@@ -63,8 +63,7 @@
 	color: #E8E7DA;
 }
 .form-group {
-	color: #46420E;
-	font-weight: bold;
+	color: #E8E7DA;
 }
 
 
