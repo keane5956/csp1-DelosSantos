@@ -27,10 +27,12 @@
 	control:  autoplay;
 	control:  loop;
 	height: 50vh;
+	padding-bottom: 40vh;
 }
 
 #webdesign-video {
 	padding-bottom: 15vh;
+	padding-top: 30vh;
 }
 
 
